@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customer id="7"
+		  xmlns:a="http://www.somedomain.com/">
+	<name>Joe</name>
+	<a:address>123 4th Street</a:address>
+</customer>
