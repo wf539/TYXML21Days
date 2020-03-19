@@ -1,0 +1,9 @@
+﻿<!ATTLIST directory>
+<!ENTITY % includer "INCLUDE">
+<!ELEMENT directory (employee, project)>
+<!ELEMENT employee (#PCDATA)>
+<!ELEMENT project (#PCDATA)>
+<! [ %includer; [
+<!ATTLIST employee sex (male | female) #REQUIRED>
+<!ATTLIST project date CDATA #IMPLIED>
+]]>

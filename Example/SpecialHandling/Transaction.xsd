@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<xsd:schema id="Transaction" targetNamespace="Transaction.xsd" xmlns="Transaction.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xsd:annotation>
+    <xsd:documentation xml:lang="en">
+      Transaction schema for SSDP-Siebel Transactions
+    </xsd:documentation>
+  </xsd:annotation>
+  <xsd:element name="Transaction">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="TransactionName">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="50"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="TransactionType">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:enumeration value="REQUEST"/>
+              <xsd:enumeration value="QUERY"/>
+              <xsd:enumeration value="NOTIFICATION"/>
+              <xsd:enumeration value="RESPONSE"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="TransactionAction" minOccurs="0">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:enumeration value="CREATE"/>
+              <xsd:enumeration value="DELETE"/>
+              <xsd:enumeration value="UPDATE"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="TransactionDuration" type="xsd:long"/>
+        <xsd:element name="TransactionTime" type="xsd:long"/>
+        <xsd:element name="TransactionID" type="xsd:long"/>
+        <xsd:element name="ReturnCode" minOccurs="0">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="10"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ReturnDesc" minOccurs="0">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="80"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="Login" minOccurs="0">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="50"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<xsd:schema id="SpecialHandling" targetNamespace="SpecialHandling.xsd" xmlns="SpecialHandling.xsd" xmlns:T="Transaction.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" finalDefault="" blockDefault="">
+  <xsd:annotation>
+    <xsd:documentation xml:lang="en">
+      SpecialHandling schema for SSDP-Siebel Special Handling Transactions:
+        1. Create a Special Handling Note for a Location
+           Require Transaction Messages:
+             a)SSDP-SIEBEL-SEND-SE5a
+             b)SSDP-SIEBEL-RECV-SE5a
+        2. Create a Special Handling Note for a Solution Element		
+           Require Transaction Messages:
+             a)SSDP-SIEBEL-SEND-SE5b
+             b)SSDP-SIEBEL-RECV-SE5b
+        3. Delete a Special Handling Note for a Location
+           Require Transaction Messages:
+             a)SSDP-SIEBEL-SEND-SE6a
+             b)SSDP-SIEBEL-RECV-SE6a
+        4. Delete a Special Handling Note for a Solution Element		 		 		
+           Require Transaction Messages:
+             a)SSDP-SIEBEL-RECV-SE6b
+             b)SSDP-SIEBEL-RECV-SE6b
+    </xsd:documentation>
+  </xsd:annotation>
+<!-- import Transaction constructs -->
+  <xsd:import namespace="Transaction.xsd" schemaLocation="Transaction.xsd"/>
+  <xsd:element name="SpecialHandling">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="T:Transaction"/>
+        <xsd:element name="Attributes" minOccurs="1" maxOccurs="1">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="specialHandlingID" minOccurs="0">
+                <xsd:simpleType>
+                  <xsd:restriction base="xsd:string">
+                    <xsd:maxLength value="18"/>
+                  </xsd:restriction>
+                </xsd:simpleType>
+              </xsd:element>
+              <xsd:element name="subject" minOccurs="0">
+                <xsd:simpleType>
+                  <xsd:restriction base="xsd:string">
+                    <xsd:maxLength value="72"/>
+                  </xsd:restriction>
+                </xsd:simpleType>
+              </xsd:element>
+              <xsd:element name="note" minOccurs="0">
+                <xsd:simpleType>
+                  <xsd:restriction base="xsd:string">
+                    <xsd:maxLength value="1000"/>
+                  </xsd:restriction>
+                </xsd:simpleType>
+              </xsd:element>
+              <xsd:element name="expirationDatetime" type="xsd:long" minOccurs="0"/>
+              <xsd:element name="createDatetime" type="xsd:long" minOccurs="0"/>
+              <xsd:element name="solutionElementID" minOccurs="0">
+                <xsd:simpleType>
+                  <xsd:restriction base="xsd:string">
+                    <xsd:maxLength value="13"/>
+                  </xsd:restriction>
+                </xsd:simpleType>
+              </xsd:element>
+              <xsd:element name="locationID" minOccurs="0">
+                <xsd:simpleType>
+                  <xsd:restriction base="xsd:string">
+                    <xsd:maxLength value="12"/>
+                  </xsd:restriction>
+                </xsd:simpleType>
+              </xsd:element>
+              <xsd:element name="critical" type="xsd:boolean" minOccurs="0"/>
+              <xsd:element name="type" minOccurs="0">
+                <xsd:simpleType>
+                  <xsd:restriction base="xsd:string">
+                    <xsd:maxLength value="6"/>
+                  </xsd:restriction>
+                </xsd:simpleType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

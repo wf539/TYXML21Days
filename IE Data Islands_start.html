@@ -1,0 +1,95 @@
+<html>
+<head>
+    <title>XML Data Islands</title>
+    <link href="islands_styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h2>
+        Binding XML Data Islands to Elements</h2>
+    <p>
+        This IE-specific example demonstrates how to bind an XML data island to an HTML
+        element like a Table. The <code>dataSrc</code> attribute binds a particular HTML
+        element to the data island - in this case, a <code>&lt;table&gt;</code>. The <code>dataFld</code>
+        attribute can be used within the HTML table element to display a particular field
+        within the XML data.
+    </p>
+    <xml id="xmlDataSource">
+        <items>
+	        <item id="item1">
+		        <name>Mocha</name>
+		        <type>Coffee</type>
+		        <photo>photos/candles.jpg</photo>
+	        </item>
+	        <item id="item2">
+		        <name>Decaf</name>
+		        <type>Coffee</type>
+		        <photo>photos/teacup.jpg</photo>
+	        </item>
+	        <item id="item3">
+		        <name>Raspberry Zinger</name>
+		        <type>Tea</type>
+		        <photo>photos/teapot_white.jpg</photo>
+	        </item>
+	        <item id="item4">
+		        <name>Earl Grey</name>
+		        <type>Tea</type>
+		        <photo>photos/teapot_bone.jpg</photo>
+	        </item>
+        </items>
+    </xml>
+    <xml id="externalDataSource" src="items.xml"
+    <table datasrc="#xmlDataSource" border="1">
+        <thead>
+            <tr>
+                <th>
+                    Photo</th>
+                <th>
+                    Description</th>
+                <th>
+                    Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img datafld="photo" />
+                </td>
+                <td>
+                    <span datafld="name" />
+                </td>
+                <td>
+                    <span datafld="type" />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p>
+        You can also bind data to HTML elements using external XML files. This table refers
+        to the items.xml file:</p>
+    <table datasrc="#externalDataSource" border="1">
+        <thead>
+            <tr>
+                <th>
+                    Photo</th>
+                <th>
+                    Description</th>
+                <th>
+                    Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img datafld="photo" />
+                </td>
+                <td>
+                    <span datafld="name" />
+                </td>
+                <td>
+                    <span datafld="type" />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

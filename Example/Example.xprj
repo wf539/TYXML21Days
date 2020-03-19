@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xproject xmlns="urn:wmhelp-com:xprj"><folder Name="XSL"><file Name="Transform.xsl" HintPath="\XSL\" NamespaceUri="http://www.w3.org/1999/XSL/Transform"/><file Name="Ancillary.xml" HintPath="\XSL\"/><file Name="Sales.xml" HintPath="\XSL\"/></folder>
+  <folder Name="PurchaseOrder">
+    <file Name="purchaseOrder.xml" HintPath="\PurchaseOrder\"/>
+    <file Name="purchaseOrder.xsd" HintPath="\PurchaseOrder\"/>
+  </folder>
+  <folder Name="SpecialHandling">
+    <file Name="SpecialHandling.xsd" HintPath="\SpecialHandling\"/>
+    <file Name="Transaction.xsd" HintPath="\SpecialHandling\"/>
+    <file Name="SpecialHandling.xml" HintPath="\SpecialHandling\"/>
+  </folder>
+</xproject>

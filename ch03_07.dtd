@@ -1,0 +1,27 @@
+  <!ATTLIST document
+    xmlns:hr CDATA #FIXED "http://www.superbigco.com/hr/">
+  <!ATTLIST document
+    xmlns:boss CDATA #FIXED "http://www.superbigco.com/boss/">
+  <!ELEMENT document (hr:employee, employee)*>
+  <!ELEMENT hr:employee (hr:name, hr:hiredate, boss:comment, hr:projects)>
+  <!ELEMENT employee (name, hiredate, projects)>
+  <!ELEMENT hr:name (hr:lastname, hr:firstname)>
+  <!ELEMENT name (lastname, firstname)>
+  <!ELEMENT hr:lastname (#PCDATA)>
+  <!ELEMENT lastname (#PCDATA)>
+  <!ELEMENT hr:firstname (#PCDATA)>
+  <!ELEMENT firstname (#PCDATA)>
+  <!ELEMENT boss:comment (#PCDATA)>
+  <!ELEMENT boss:date (#PCDATA)>
+  <!ELEMENT hr:hiredate (#PCDATA)>
+  <!ELEMENT hiredate (#PCDATA)>
+  <!ELEMENT hr:projects (hr:project)*>
+  <!ELEMENT projects (project)*>
+  <!ELEMENT hr:project (hr:product, hr:id, hr:price)>
+  <!ELEMENT project (product, id, price)>
+  <!ELEMENT hr:product (#PCDATA)>
+  <!ELEMENT product (#PCDATA)>
+  <!ELEMENT hr:id (#PCDATA)>
+  <!ELEMENT id (#PCDATA)>
+  <!ELEMENT hr:price (#PCDATA)>
+  <!ELEMENT price (#PCDATA)>

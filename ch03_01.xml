@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE document SYSTEM "ch03_07.dtd">
+<document xmlns:hr="http://www.superbigco.com/hr/" xmlns:boss="http://www.superbigco.com/boss/">
+  <hr:employee> 
+    <hr:name>
+      <hr:lastname>Kelly</hr:lastname>
+      <hr:firstname>Grace</hr:firstname>
+    </hr:name>
+    <hr:hiredate>October 15, 2005</hr:hiredate>
+    <boss:comment boss:date="21 August 2011">Needs supervision</boss:comment>
+    <hr:projects>
+      <hr:project>
+        <hr:product>Printer</hr:product>
+        <hr:id>111</hr:id>
+        <hr:price>$111.00</hr:price>
+      </hr:project>
+      <hr:project>
+        <hr:product>Laptop</hr:product>
+        <hr:id>222</hr:id>
+        <hr:price>$989.00</hr:price>
+      </hr:project>
+    </hr:projects>
+  </hr:employee>
+  <hr:employee>
+    <hr:name>
+      <hr:lastname>Grant</hr:lastname>
+      <hr:firstname>Cary</hr:firstname>
+    </hr:name>
+    <hr:hiredate>October 20, 2005</hr:hiredate>
+    <hr:projects>
+      <hr:project>
+        <hr:product>Desktop</hr:product>
+        <hr:id>333</hr:id>
+        <hr:price>$2995.00</hr:price>
+      </hr:project>
+      <hr:project>
+        <hr:product>Scanner</hr:product>
+        <hr:id>444</hr:id>
+        <price>$200.00</price>
+      </hr:project>
+    </hr:projects>
+  </hr:employee>
+  <hr:employee>
+    <hr:name>
+      <hr:lastname>Gable</hr:lastname>
+      <hr:firstname>Clark</hr:firstname>
+    </hr:name>
+    <hr:hiredate>October 25, 2005</hr:hiredate>
+    <hr:projects>
+      <hr:project>
+        <hr:product>Keyboard</hr:product>
+        <hr:id>555</hr:id>
+        <hr:price>$129.00</hr:price>
+      </hr:project>
+      <hr:project>
+        <hr:product>Mouse</hr:product>
+        <hr:id>666</hr:id>
+        <hr:price>$25.00</hr:price>
+      </hr:project>
+    </hr:projects>
+  </hr:employee>
+</document>

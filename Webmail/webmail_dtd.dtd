@@ -1,0 +1,19 @@
+<!ELEMENT webmail (yahoo, googlemail)?>
+<!ELEMENT googlemail (email)?>
+<!ELEMENT email EMPTY>
+<!ELEMENT yahoo (email)?>
+<!ELEMENT email (host1and1, alsears)?>
+<!ELEMENT host1and1 EMPTY>
+<!ELEMENT alsears (timestamp, subjectLine, links, from)?>
+<!ELEMENT timestamp (#PCDATA)>
+<!ELEMENT subjectLine (#PCDATA)>
+<!ELEMENT links (link1, link2, link3, link4, link5, link6, link7, subject1, subject2, subject3, subject4, subject5, subject6, subject7)?>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT link1 (linkSubject1, linkSubject2, linkSubject3, linkSubject4, linkSubject5, linkSubject6, linkSubject7)?>
+<!ELEMENT link2 (linkSubject1, linkSubject2, linkSubject3, linkSubject4, linkSubject5, linkSubject6, linkSubject7)?>
+<!ELEMENT link3 (linkSubject1, linkSubject2, linkSubject3, linkSubject4, linkSubject5, linkSubject6, linkSubject7)?>
+<!ELEMENT link4 (linkSubject1, linkSubject2, linkSubject3, linkSubject4, linkSubject5, linkSubject6, linkSubject7)?>
+<!ELEMENT link5 (linkSubject1, linkSubject2, linkSubject3, linkSubject4, linkSubject5, linkSubject6, linkSubject7)?>
+<!ELEMENT link6 (linkSubject1, linkSubject2, linkSubject3, linkSubject4, linkSubject5, linkSubject6, linkSubject7)?>
+<!ELEMENT link7 (linkSubject1, linkSubject2, linkSubject3, linkSubject4, linkSubject5, linkSubject6, linkSubject7)?>
+<!ATTLIST links present (True | False) #REQUIRED>

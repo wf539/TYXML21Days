@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<workouts>
+  <rower>
+    <rowingSession target="Time">1
+      <date>2108-09-30</date>
+      <strokes>487</strokes>
+      <duration>02007</duration>
+      <distance>15.58</distance>
+      <calories>68.1</calories>
+      <counter>2121</counter>
+      <tension type="Fixed" level="1"/>
+      <comments>Previously used but results not recorded.</comments>
+    </rowingSession>
+    <rowingSession target="Time">2
+      <date>2108-10-01</date>
+      <strokes>516</strokes>
+      <duration>02006</duration>
+      <distance>16.51</distance>
+      <calories>72.2</calories>
+      <counter>2766</counter>
+      <tension type="Fixed" level="1"/>
+      <comments>Adjusted stroke counter.</comments>
+    </rowingSession>
+    <rowingSession target="Time">3
+      <date>2108-10-02</date>
+      <strokes>521</strokes>
+      <duration>02006</duration>
+      <distance>16.67</distance>
+      <calories>72.9</calories>
+      <counter>3416</counter>
+      <tension type="Fixed" level="1"/>
+      <comments>Adjusted stroke counter.</comments>
+    </rowingSession>
+    <rowingSession target="Time">4
+      <date>2108-10-03</date>
+      <strokes>527</strokes>
+      <duration>02010</duration>
+      <distance>16.89</distance>
+      <calories>73.9</calories>
+      <counter>4079</counter>
+      <tension type="Fixed" level="1"/>
+      <comments>Adjusted stroke counter.</comments>
+    </rowingSession>
+    <rowingSession target="Time">5
+      <date>2108-10-04</date>
+      <strokes>547</strokes>
+      <duration>02006</duration>
+      <distance>17.5</distance>
+      <calories>76.5</calories>
+      <counter>4764</counter>
+      <tension type="Fixed" level="1"/>
+      <comments>Adjusted stroke counter.</comments>
+    </rowingSession>
+    <rowingSession target="Time">6
+      <date>2108-10-05</date>
+      <strokes>551</strokes>
+      <duration>02007</duration>
+      <distance>17.6</distance>
+      <calories>77.1</calories>
+      <counter>5315</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Time">7
+      <date>2108-10-06</date>
+      <strokes>578</strokes>
+      <duration>02005</duration>
+      <distance>18.5</distance>
+      <calories>80.9</calories>
+      <counter>6033</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Time">8
+      <date>2108-10-07</date>
+      <strokes>592</strokes>
+      <duration>02006</duration>
+      <distance>18.94</distance>
+      <calories>82.8</calories>
+      <counter>6775</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Time">9
+      <date>2108-10-08</date>
+      <strokes>605</strokes>
+      <duration>02005</duration>
+      <distance>19.27</distance>
+      <calories>84.7</calories>
+      <counter>7530</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Time">10
+      <date>2108-10-09</date>
+      <strokes>600</strokes>
+      <duration>02005</duration>
+      <distance>19.2</distance>
+      <calories>84.0</calories>
+      <counter>8285</counter>
+      <tension type="Fixed" level="1"/>
+      <comments>Adjusted stroke counter.</comments>
+    </rowingSession>
+    <rowingSession target="Time">11
+      <date>2108-10-10</date>
+      <strokes>629</strokes>
+      <duration>02005</duration>
+      <distance>19.86</distance>
+      <calories>88.0</calories>
+      <counter>9073</counter>
+      <tension type="Fixed" level="1"/>
+      <comments>Adjusted stroke counter.</comments>
+    </rowingSession>
+    <rowingSession target="Time">12
+      <date>2108-10-11</date>
+      <strokes>615</strokes>
+      <duration>02005</duration>
+      <distance>19.41</distance>
+      <calories>86.1</calories>
+      <counter>9688</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Time">13
+      <date>2108-10-12</date>
+      <strokes>631</strokes>
+      <duration>02006</duration>
+      <distance>19.98</distance>
+      <calories>88.3</calories>
+      <counter>319</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Time">14
+      <date>2108-10-13</date>
+      <strokes>661</strokes>
+      <duration>02005</duration>
+      <distance>21.11</distance>
+      <calories>92.5</calories>
+      <counter>1149</counter>
+      <tension type="Fixed" level="1"/>
+      <comments>Adjusted stroke counter.</comments>
+    </rowingSession>
+    <rowingSession target="Time">15
+      <date>2108-10-14</date>
+      <strokes>654</strokes>
+      <duration>02006</duration>
+      <distance>20.86</distance>
+      <calories>91.5</calories>
+      <counter>1972</counter>
+      <tension type="Fixed" level="1"/>
+      <comments>Adjusted stroke counter.</comments>
+    </rowingSession>
+    <rowingSession target="Time">16
+      <date>2108-10-15</date>
+      <strokes>679</strokes>
+      <duration>02006</duration>
+      <distance>20.69</distance>
+      <calories>95.0</calories>
+      <counter>2821</counter>
+      <tension type="Fixed" level="1"/>
+      <comments>Adjusted stroke counter.</comments>
+    </rowingSession>
+    <rowingSession target="Time">17
+      <date>2108-10-16</date>
+      <strokes>681</strokes>
+      <duration>02004</duration>
+      <distance>21.4</distance>
+      <calories>95.3</calories>
+      <counter>3677</counter>
+      <tension type="Fixed" level="1"/>
+      <comments>Adjusted stroke counter.</comments>
+    </rowingSession>
+    <rowingSession target="Time">18
+      <date>2108-10-17</date>
+      <strokes>727</strokes>
+      <duration>02006</duration>
+      <distance>22.2</distance>
+      <calories>101.7</calories>
+      <counter>4588</counter>
+      <tension type="Fixed" level="1"/>
+      <comments>Adjusted stroke counter.</comments>
+    </rowingSession>
+    <rowingSession target="Time">19
+      <date>2108-10-18</date>
+      <strokes>731</strokes>
+      <duration>02005</duration>
+      <distance>21.96</distance>
+      <calories>102.3</calories>
+      <counter>5502</counter>
+      <tension type="Fixed" level="1"/>
+      <comments>Adjusted stroke counter.</comments>
+    </rowingSession>
+    <rowingSession target="Time">20
+      <date>2108-10-21</date>
+      <strokes>744</strokes>
+      <duration>02006</duration>
+      <distance>20.07</distance>
+      <calories>104.1</calories>
+      <counter>6246</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Time">21
+      <date>2108-10-22</date>
+      <strokes>753</strokes>
+      <duration>02004</duration>
+      <distance>21.38</distance>
+      <calories>105.4</calories>
+      <counter>7367</counter>
+      <tension type="Fixed" level="1"/>
+      <comments>Adjusted stroke counter.</comments>
+    </rowingSession>
+    <rowingSession target="Time">22
+      <date>2108-10-23</date>
+      <strokes>741</strokes>
+      <duration>02007</duration>
+      <distance>21.32</distance>
+      <calories>103.7</calories>
+      <counter>8298</counter>
+      <tension type="Fixed" level="1"/>
+      <comments>Adjusted stroke counter.</comments>
+    </rowingSession>
+    <rowingSession target="Time">23
+      <date>2108-10-24</date>
+      <strokes>483</strokes>
+      <duration>01505</duration>
+      <distance>15.06</distance>
+      <calories>67.6</calories>
+      <counter>8966</counter>
+      <tension type="Fixed" level="2"/>
+      <comments>Adjusted stroke counter.</comments>
+    </rowingSession>
+    <rowingSession target="Time">24
+      <date>2108-10-27</date>
+      <strokes>680</strokes>
+      <duration>02000</duration>
+      <distance>20.16</distance>
+      <calories>95.2</calories>
+      <counter>9645</counter>
+      <tension type="fixed" level="2"/>
+      <comments>Adjusted stroke counter. Estimated duration 20 minutes.</comments>
+    </rowingSession>
+    <rowingSession target="Time">25
+      <date>2108-10-28</date>
+      <strokes>703</strokes>
+      <duration>02001</duration>
+      <distance>21.68</distance>
+      <calories>98.4</calories>
+      <counter>349</counter>
+      <tension type="Fixed" level="1"/>
+      <comments>Adjusted stroke counter.</comments>
+    </rowingSession>
+    <rowingSession target="Time">26
+      <date>2108-10-29</date>
+      <strokes>700</strokes>
+      <duration>02001</duration>
+      <distance>20.50</distance>
+      <calories>98.0</calories>
+      <counter>1049</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Time">27
+      <date>2108-10-30</date>
+      <strokes>623</strokes>
+      <duration>01705</duration>
+      <distance>16.34</distance>
+      <calories>87.2</calories>
+      <counter>1814</counter>
+      <tension type="Fixed" level="1"/>
+      <comments>Adjusted stroke counter.</comments>
+    </rowingSession>
+    <rowingSession target="Time">28
+      <date>2108-10-31</date>
+      <strokes>540</strokes>
+      <duration>01501</duration>
+      <distance>15.13</distance>
+      <calories>75.6</calories>
+      <counter>2354</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Time">29
+      <date>2108-11-01</date>
+      <strokes>778</strokes>
+      <duration>02007</duration>
+      <distance>20.07</distance>
+      <calories>108.9</calories>
+      <counter>3132</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Time">30
+      <date>2108-11-04</date>
+      <strokes>540</strokes>
+      <duration>01502</duration>
+      <distance>16.18</distance>
+      <calories>75.6</calories>
+      <counter>3888</counter>
+      <tension type="Fixed" level="1"/>
+      <comments>Adjusted stroke counter.</comments>
+    </rowingSession>
+    <rowingSession target="Time">31
+      <date>2108-11-05</date>
+      <strokes>730</strokes>
+      <duration>02000</duration>
+      <distance>20.32</distance>
+      <calories>102.2</calories>
+      <counter>4618</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Strokes">32
+      <date>2108-11-06</date>
+      <strokes>731</strokes>
+      <duration>01904</duration>
+      <distance>20.08</distance>
+      <calories>102.3</calories>
+      <counter>5349</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Strokes">33
+      <date>2108-11-07</date>
+      <strokes>730</strokes>
+      <duration>01854</duration>
+      <distance>19.19</distance>
+      <calories>102.2</calories>
+      <counter>6079</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Time">34
+      <date>2108-11-10</date>
+      <strokes>560</strokes>
+      <duration>01502</duration>
+      <distance>15.04</distance>
+      <calories>78.4</calories>
+      <counter>6640</counter>
+      <tension type="Fixed" level="1"/>
+      <comments>Adjusted stroke counter.</comments>
+    </rowingSession>
+    <rowingSession target="Strokes">35
+      <date>2108-11-11</date>
+      <strokes>750</strokes>
+      <duration>01916</duration>
+      <distance>20.27</distance>
+      <calories>105.0</calories>
+      <counter>7390</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Strokes">36
+      <date>2108-11-12</date>
+      <strokes>730</strokes>
+      <duration>01841</duration>
+      <distance>19.98</distance>
+      <calories>102.2</calories>
+      <counter>8120</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Strokes">37
+      <date>2108-11-13</date>
+      <strokes>730</strokes>
+      <duration>01749</duration>
+      <distance>17.98</distance>
+      <calories>102.2</calories>
+      <counter>8850</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Strokes">38
+      <date>2108-11-14</date>
+      <strokes>730</strokes>
+      <duration>01745</duration>
+      <distance>17.58</distance>
+      <calories>102.2</calories>
+      <counter>9580</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Strokes">39
+      <date>2108-11-17</date>
+      <strokes>500</strokes>
+      <duration>01228</duration>
+      <distance>12.23</distance>
+      <calories>70.0</calories>
+      <counter>80</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Strokes">40
+      <date>2108-11-18</date>
+      <strokes>730</strokes>
+      <duration>01726</duration>
+      <distance>17.58</distance>
+      <calories>102.2</calories>
+      <counter>810</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Time">41
+      <date>2108-11-21</date>
+      <strokes>590</strokes>
+      <duration>01507</duration>
+      <distance>14.7</distance>
+      <calories>82.6</calories>
+      <counter>1400</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Strokes">42
+      <date>2108-11-24</date>
+      <strokes>550</strokes>
+      <duration>01511</duration>
+      <distance>15.24</distance>
+      <calories>77.0</calories>
+      <counter>1950</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Strokes">43
+      <date>2108-11-28</date>
+      <strokes>560</strokes>
+      <duration>01513</duration>
+      <distance>15.54</distance>
+      <calories>78.4</calories>
+      <counter>2510</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Strokes">44
+      <date>2108-12-01</date>
+      <strokes>730</strokes>
+      <duration>01851</duration>
+      <distance>19.78</distance>
+      <calories>102.2</calories>
+      <counter>3240</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Strokes">45
+      <date>2108-12-02</date>
+      <strokes>710</strokes>
+      <duration>01758</duration>
+      <distance>17.72</distance>
+      <calories>99.4</calories>
+      <counter>3950</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Strokes">46
+      <date>2108-12-03</date>
+      <strokes>750</strokes>
+      <duration>01809</duration>
+      <distance>18.27</distance>
+      <calories>105.0</calories>
+      <counter>4700</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Strokes">47
+      <date>2108-12-04</date>
+      <strokes>700</strokes>
+      <duration>01634</duration>
+      <distance>16.8</distance>
+      <calories>98.0</calories>
+      <counter>5400</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Strokes">48
+      <date>2108-12-06</date>
+      <strokes>750</strokes>
+      <duration>01727</duration>
+      <distance>18.01</distance>
+      <calories>105.0</calories>
+      <counter>6150</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Strokes">49
+      <date>2108-12-08</date>
+      <strokes>730</strokes>
+      <duration>01617</duration>
+      <distance>17.25</distance>
+      <calories>102.2</calories>
+      <counter>6900</counter>
+      <tension type="Fixed" level="1"/>
+    </rowingSession>
+    <rowingSession target="Time">50
+      <date>2108-12-22</date>
+      <strokes>581</strokes>
+      <duration>01500</duration>
+      <distance>16.49</distance>
+      <calories>85.2</calories>
+      <counter>9994</counter>
+      <tension type="Variable"/>
+      <comments>Actual number of strokes not recorded.</comments>
+    </rowingSession>
+  </rower>
+</workouts>

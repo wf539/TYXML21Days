@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialHandling xmlns="SpecialHandling.xsd"
+   xmlns:T="Transaction.xsd"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="SpecialHandling.xsd .\SpecialHandling.xsd Transaction.xsd .\Transaction.xsd">
+  <T:Transaction>
+    <T:TransactionName>SSDP-SIEBEL-SEND-SE5b</T:TransactionName>
+    <T:TransactionType>REQUEST</T:TransactionType>
+    <T:TransactionAction>CREATE</T:TransactionAction>
+    <T:TransactionDuration>464415</T:TransactionDuration>
+    <T:TransactionTime>464415</T:TransactionTime>
+    <T:TransactionID>0001239803</T:TransactionID>
+    <T:Login>exsys</T:Login>
+  </T:Transaction>
+  <Attributes>
+    <subject>Credit Risk</subject>
+    <note>Hello Siebel</note>
+    <expirationDatetime>464415</expirationDatetime>
+    <solutionElementID>1-P04</solutionElementID>
+    <critical>1</critical>
+    <type>Safety</type>
+  </Attributes>
+</SpecialHandling>

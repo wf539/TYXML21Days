@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Business Card DOM Example 3</title>
+    <script language="javascript" type="text/javascript">
+        function createBizCards() {
+
+            var xmldata = document.getElementById("xmldata1");
+            var bizCards = xmldata.getElementsByTagName("BusinessCard");
+
+            for (i = 0; i < bizCards.length; i++) {
+                var currentCard = bizCards[i];
+                var newCard = document.createElement("div");
+                newCard.setAttribute("className", "BusinessCard");
+                newCard.setAttribute("class", "BusinessCard");
+
+                var newName = document.createElement("div");
+                newName.setAttribute("className", "Name");
+                newName.setAttribute("class", "Name");
+                newCard.appendChild(newName);
+                var nameStr = document.createTextNode(currentCard.getElementsByTagName("Name")[0].firstChild.data);
+                newName.appendChild(nameStr);
+
+                var phones = currentCard.getElementsByTagName("phone");
+                for (var j = 0; j < phones.length; j++) {
+                    var newPhone = document.createElement("div");
+                    newPhone.setAttribute("className", "phone");
+                    newPhone.setAttribute("class", "phone");
+                    newCard.appendChild(newPhone);
+                    var phoneStr = document.createTextNode(phones[j].getAttribute("type") + ": " + phones[j].firstChild.data);
+                    newPhone.appendChild(phoneStr);
+
+                }
+
+                var newEmail = document.createElement("div");
+                newEmail.setAttribute("className", "email");
+                newEmail.setAttribute("class", "email");
+                newCard.appendChild(newEmail);
+                var emailStr = document.createTextNode("Email: " + currentCard.getElementsByTagName("email")[0].firstChild.data);
+                newEmail.appendChild(emailStr);
+
+                document.getElementsByTagName("body")[0].appendChild(newCard);
+            }
+        }
+    </script>
+    <link rel="Stylesheet" href="businesscard.css" />
+</head>
+<body onload="createBizCards()">
+<xml id="xmldata1" style="display:none">
+<BusinessCards>
+	<BusinessCard>
+		<Name>Joe Marini</Name>
+		<phone type="mobile">(415) 555-4567</phone>
+		<phone type="work">(800) 555-9876</phone>
+		<phone type="fax">(510) 555-1234</phone>
+		<email>joe@joe.com</email>
+	</BusinessCard>
+    <BusinessCard>
+		<Name>Joe Marini</Name>
+		<phone type="mobile">(415) 555-4567</phone>
+		<phone type="work">(800) 555-9876</phone>
+		<phone type="fax">(510) 555-1234</phone>
+		<email>joe@joe.com</email>
+	</BusinessCard>
+    <BusinessCard>
+		<Name>Joe Marini</Name>
+		<phone type="mobile">(415) 555-4567</phone>
+		<phone type="work">(800) 555-9876</phone>
+		<phone type="fax">(510) 555-1234</phone>
+		<email>joe@joe.com</email>
+	</BusinessCard>
+    <BusinessCard>
+		<Name>Joe Marini</Name>
+		<phone type="mobile">(415) 555-4567</phone>
+		<phone type="work">(800) 555-9876</phone>
+		<phone type="fax">(510) 555-1234</phone>
+		<email>joe@joe.com</email>
+	</BusinessCard>
+</BusinessCards>	
+</xml>
+</body>
+</html>
